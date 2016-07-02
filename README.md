@@ -4,6 +4,8 @@ Compilador desenvolvido para fins acadêmicos usando FLEX e YACC.
 Faz a tradução para código ASSEMBLY a partir da gramática definida no arquivo scanner.l
 
 O compilador é divido nos seguintes arquivos básicos.
+
+
 	- scanner.l - Define a gramatica para fazer o reconhecimento do TOKENS.
 	- parser.y - Faz a análise sintática e semântica já criando os comandos ASSEMBLY de três endereços.
 	- mytable.h - Estrutura dos TOKENS.
